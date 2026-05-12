@@ -9,9 +9,9 @@ class Library:
         self.books = []
         self.borrowed_books = []
         
-
-	def add_book(self, book):
+    def add_book(self, book):
         self.books.append(book)
+
     def remove_book(self, book_title):
         for book in self.books:
             if book.title == book_title:
